@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #83a4d4, #b6fbff);
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+}
+
+input#search {
+  padding: 10px;
+  width: 300px;
+  border-radius: 10px;
+  border: none;
+}
+
+#preinstalled button {
+  margin: 5px;
+  padding: 10px 20px;
+  background: #ffffff33;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.weather-card {
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+}
+
+.temp-card {
+  background: linear-gradient(to right, #ff9966, #ff5e62);
+}
+
+.wind-card {
+  background: linear-gradient(to right, #36d1dc, #5b86e5);
+}
+
+.time-card {
+  background: linear-gradient(to right, #f7971e, #ffd200);
+}
+
+.sun-card {
+  background: linear-gradient(to right, #fceabb, #f8b500);
+}
+
+.uv-card {
+  background: linear-gradient(to right, #43cea2, #185a9d);
+}
+
+.alert-card {
+  background: linear-gradient(to right, #f00000, #dc281e);
+}
+
+
+
+
+#forecastCards {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+
+footer{ text-align: center;}

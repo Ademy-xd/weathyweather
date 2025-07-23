@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WeathyWeather| Your Weather Companion</title>
+ <link rel="shortcut icon" href="images/Logopit_1742748475506 (1) (1).png" type="image/x-icon">
+</head>
+<body>
+
+  <header>
+    <h1> WeathyWeather</h1>
+    <input type="text" id="search" placeholder="Search for a city..." />
+  </header>
+
+  <main>
+    <!-- Pre-installed Cities -->
+    <section id="preinstalled">
+      <button onclick="getWeather('New York')">New York</button>
+      <button onclick="getWeather('London')">London</button>
+      <button onclick="getWeather('Tokyo')">Tokyo</button>
+    </section>
+
+    <!-- Live Weather Display -->
+    <section id="weatherDisplay">
+      <div class="weather-card temp-card">
+        <h2 id="cityName">City Name</h2>
+        <p id="temperature">Temperature</p>
+        <p id="description">Description</p>
+        <img id="weatherIcon" />
+      </div>
+
+      <div class="weather-card wind-card">
+        <p id="windSpeed">Wind Speed</p>
+        <p id="windDirection">Wind Direction</p>
+      </div>
+
+      <div class="weather-card time-card">
+        <p id="dateTime">Date & Time</p>
+      </div>
+
+      <div class="weather-card sun-card">
+        <p id="sunrise">Sunrise</p>
+        <p id="sunset">Sunset</p>
+      </div>
+
+      <div class="weather-card uv-card">
+        <p id="uvIndex">UV Index</p>
+      </div>
+
+      <div class="weather-card alert-card">
+        <p id="alert">Weather Alerts</p>
+      </div>
+    </section>
+
+
+    
+
+    <!-- 3-Day Forecast -->
+    <section id="forecast">
+      <h2>3-Day Forecast</h2>
+      <div id="forecastCards"></div>
+    </section>
+  </main>
+<link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</body>
+</html>
+
+<br>
+<br>
+<br>
+<footer>2025 Listden and Ademy Technologies</footer>
